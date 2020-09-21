@@ -3,8 +3,14 @@
   background-image: url("../../assets/greeting-background.jpg");
   background-size: cover;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 100%;
 }
@@ -32,9 +38,11 @@
 }
 
 .my-work-button:hover {
+  -webkit-transform: scale(0.95);
   transform: scale(0.95);
 }
 
 .hire-button:hover {
+  -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
